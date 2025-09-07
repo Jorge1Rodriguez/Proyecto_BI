@@ -19,7 +19,7 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-      AIRFLOW__CORE__FERNET_KEY: "hNdRjZxVtNOlWR24VmGZrcuw2e2SJdRIiQ-cWDNDqHk="
+      AIRFLOW__CORE__FERNET_KEY: "put_your_fernet_key_here"
       AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
       PYTHONPATH: /opt/airflow
@@ -41,7 +41,7 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-      AIRFLOW__CORE__FERNET_KEY: "hNdRjZxVtNOlWR24VmGZrcuw2e2SJdRIiQ-cWDNDqHk="
+      AIRFLOW__CORE__FERNET_KEY: "put_your_fernet_key_here"
       AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
       PYTHONPATH: /opt/airflow
     volumes:

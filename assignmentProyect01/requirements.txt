@@ -9,3 +9,4 @@ seaborn
 SQLAlchemy
 nbformat
 pytest
+cryptography
