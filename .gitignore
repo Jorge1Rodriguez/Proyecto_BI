@@ -209,3 +209,8 @@ __marimo__/
 #db
 
 assignmentProyect01/olist.db
+
+
+#airflow
+
+airflow_env/
