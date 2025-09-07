@@ -76,7 +76,7 @@ To automate the pipeline using Airflow:
 python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 ```
 
-2. Place the generated key in the `AIRFLOW__CORE__FERNET_KEY` variable inside the `docker-compose.yaml` file.
+2. Place the generated key in the `AIRFLOW__CORE__FERNET_KEY` variable inside the `docker-compose.yml` file.
 
 ### Initialization and Deployment
 
