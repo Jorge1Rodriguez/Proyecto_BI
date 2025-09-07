@@ -65,7 +65,7 @@ When opening `ETLProject.ipynb` in VS Code:
 4. Click on the kernel selector in the top right corner of the notebook (it might show "Select Kernel" or the current kernel name)
 5. Choose "Python Environments..." from the dropdown
 6. Select "Python (venv)" or the path to your virtual environment (usually `./venv/Scripts/python.exe` on Windows or `./venv/bin/python` on macOS/Linux; 
-If it doesn't appear, restart vscode.)
+If it doesn't appear, restart vscode and activate the venv again.)
 7. The notebook will now use your virtual environment with all installed dependencies
 
 **Note:** Make sure you have the Python extension installed in VS Code for proper notebook support.
