@@ -25,7 +25,7 @@ services:
       PYTHONPATH: /opt/airflow
     volumes:
       - ./dags:/opt/airflow/dags
-      - C:\Users\jorge\Documents\Universidad\2025B\Inteligencia\Proyecto\Proyecto_BI\assignmentProyect01\src:/opt/airflow/src
+      - ../src:/opt/airflow/src
       - ../queries:/opt/airflow/queries
       - ../dataset:/opt/airflow/dataset
       - ./logs:/opt/airflow/logs
